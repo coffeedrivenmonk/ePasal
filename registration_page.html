@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="reg.css" rel="stylesheet">
+    <title>Registration page</title>
+</head>
+<body>
+    <div class="main-wrapper">              <!-- main wrapper that wraps everything -->
+
+        <div class="logo">                  <!-- div that wraps the logo on the screen -->
+            <img src="logo.png" alt="logo" width="600" height="400" />
+        </div> 
+
+        <div class="register">              <!-- div that wraps the main title -->
+            <h2>Create your ePasal account</h2>
+        </div>
+            <form>
+                <form id="register" method="post">
+                    <label>Name:</label>
+                    <br>
+                    <input type="text" name="fullname" id="name" placeholder="Enter your name" required>
+                    <br>
+
+                    <label>Email:</label>
+                    <br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                    <br>
+
+                    <label>Password:</label>
+                    <br>
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    <br>
+
+                    <label>Phone number</label>
+                    <br>
+                    <input type="number" name="phoneno" id="phoneno" placeholder="Enter your phone number" required>
+                    <br>
+
+                    <label>Shipping address</label>
+                    <br>
+                    <input type="text" name="address" id="address" placeholder="Enter your address" required>
+                    <br>
+
+                    <label>Gender</label>
+                    <br>
+                    
+                    <input type="checkbox" id="gender1" name="gender1" value="Male">
+                    <label>Male</label>
+                    <br>
+                    <input type="checkbox" id="gender2" name="gender2" value="Female">
+                    <label for="gender2">Female</label>
+                    
+                    <br>
+                    <input type="submit" id="submit" id="submit" placeholder="register">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
