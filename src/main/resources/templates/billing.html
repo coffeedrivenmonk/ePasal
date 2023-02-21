@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+
+
+    <title>Login</title>
+    <script>
+
+        function myFunction(){
+            if(document.getElementById("Province").value==""){
+                alert("Please enter the province")
+                return false;
+            }
+            if(document.getElementById("city").value==""){
+                alert("Please enter the city")
+                return false;
+            }
+            if(document.getElementById("Area").value==""){
+                alert("Please enter the area")
+                return false;
+            }
+            if(document.getElementById("Province").value==""){
+                alert("Please enter the province")
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="wrapper "  style="border-style:ridge ;">
+    <header>
+        <div class="right-head">
+            <div class="logo">
+                <img src="image/logo.png" alt="logo " width="80" height="80" style=" text-align:center;"/>
+
+            </div>
+            <div>
+                <input id="Search" name="Search" placeholder="Search" />
+            </div>
+        </div>
+        <div class="left-head">
+            <div class="right">
+                <img src="cart.png" width="40" height="50" alt="addcart" />
+            </div>
+            <div class="left">
+                <img src="heart.png" alt="addcart" />
+            </div>
+        </div>
+        <div class ="left-logo">
+            <img src="Logo.png"width="80" height="80" alt="addcart" />
+        </div>
+        <!-- <div> <h1>login <br>
+          and get <br>
+         20% discount <br>
+        </h1>
+      </div> -->
+</div>
+</header>
+
+<div class="mid-body">
+    <div class="centre-box">
+        <div class="container">
+            <h1>Add New Delivery Address</h1>
+            <div class="form">
+
+                <div class="fields fields--2">
+                    <label class="field">
+                        <span class="field__label" for="Province">Province</span>
+                        <input class="field__input" type="text" id="Province" name="section" list="scrip" value="" required/>
+                        <datalist id="scrip">
+                            <option value="Province 1"></option>
+                            <option value="Province 2"></option>
+                            <option value="Province 3"></option>
+                            <option value="Province 4"></option>
+                            <option value="Province 5"></option>
+                            <option value="Province 6"></option>
+                            <option value="Province 7"></option>
+                        </datalist>
+                    </label>
+                    <label class="field">
+                        <span class="field__label" for="lastname">Select a label for effective delivery</span>
+                        <input type="datetime-local" name="time"  id="dateandtime">
+
+                    </label>
+                </div>
+                <div class="fields fields--3">
+                    <label class="field">
+                        <span class="field__label" for="city">City</span>
+                        <input class="field__input" name="section" list="script" type="text" id="city" value="" required/>
+                        <datalist id="script">
+                            <option value="Kathmandu"></option>
+                            <option value="Lalitpur"></option>
+                            <option value="Bhaktapur"></option>
+                            <option value="Sanga"></option>
+                            <option value="Nagarkot"></option>
+                        </datalist>
+                    </label>
+                    <label class="field">
+                        <span class="field__label" for="Area">Area</span>
+                        <input class="field__input" name="section" list="scripts" type="text" id="Area" value="" required/>
+                        <datalist id="scripts">
+                            <option value="Dilibazar"></option>
+                            <option value="Putalisadak"></option>
+                            <option value="Gangabu"></option>
+                            <option value="New Road"></option>
+                            <option value="Jamal"></option>
+                            <option value="Buddha Chowk"></option>
+                            <option value="Thulobharang"></option>
+                            <option value="Sanothimi"></option>
+                            <option value="Eye Hospital Area"></option>
+                            <option value="Pulchowk"></option>
+                        </datalist>
+
+                    </label>
+                </div>
+            </div>
+            <hr>
+            <button class="button" type="submit" value="SUBMIT" onclick="myFunction()">SAVE</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
