@@ -54,3 +54,31 @@ header{
     border-radius: 2%;
 
 }
+.left-head{
+    display: flex;
+    width:40%;
+}
+
+.left-head .right{
+    display: flex;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    padding-right: 20%;
+}
+.left-head .left{
+    display: flex;
+    width: 40px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.left-head .left-logo{
+    height: 80px;
+    display: flex;
+    width:50% ;
+    text-align:center;
+
+
+}
