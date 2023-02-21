@@ -46,3 +46,22 @@ h2 {
 p {
     font-size: 12px;
 }
+.passInput {
+    margin-top: 15px;
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid deepskyblue;
+    font-size: 15px;
+    color: white;
+    outline: none;
+}
+
+button {
+    margin-top: 15px;
+    width: 80%;
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
