@@ -22,7 +22,7 @@ select:focus{
     text-align:40px;
     text-align:center;
     line-height:40px;
-    cursor:pointer;
+    cursor:pointer;;
 }
 .page-btn span:hover{
     background:#ff523b;
