@@ -99,3 +99,15 @@ header{
 
 
 }
+.centre-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    width: 1200px;
+    height: 480px;
+    background-color: azure;
+    border-radius: 20px;
+    justify-content: center;
+    box-sizing: border-box;
+}
