@@ -109,10 +109,21 @@ header{
     background-color: azure;
     border-radius: 20px;
     justify-content: center;
+
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;  */
+    margin-top: -90px;
+    width: 1200px;
+    height: 470px;
+    background-color: azure;
+    border-radius: 20px;
     box-sizing: border-box;
 }
 h1 {
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 p {
@@ -127,11 +138,33 @@ hr {
     margin: 2rem 0;
 }
 
+
 .container {
     max-width: 40rem;
     padding: 10vw 2rem 0;
     margin: 0 auto;
     height: 100vh;
+
+.container {
+    max-width: 40rem;
+    padding: 10px;
+    margin-left: 2rem;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.common{
+    /* margin-right: 20px; */
+    /* border: #000 1px solid; */
+    border-radius: 4px;
+}
+.common img{
+    width: 250px;
+    height: 200px;
+    margin: 4px;
 }
 
 .form {
@@ -186,6 +219,7 @@ hr {
 .fields--3 {
     grid-template-columns: 1fr 1fr 1fr;
 }
+
 .button {
     background-color: #000;
     text-transform: uppercase;
@@ -203,3 +237,14 @@ hr {
 .button:focus-visible {
     background-color: #333;
 }
+
+
+.order .order_items{
+    margin: 0 auto;
+    border: none;
+    width: 200px;
+    margin-top: -10px;
+    height: 150px;
+    padding: 2rem;
+}   
+
