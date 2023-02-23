@@ -9,5 +9,6 @@ public class EPasalApplication {agva
     public static void main(String[] args) {
         SpringApplication.run(EPasalApplication.class, args);
     }
+
 }
 S
