@@ -126,7 +126,7 @@ public class EPasalApplication {agva
     [PGMA
     [PGMA
     [GA
-    OGA
+    OGAC
         OAG
     OCFXBXFB
         B
